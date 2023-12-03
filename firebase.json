@@ -1,0 +1,17 @@
+{
+  "hosting": {
+    "site": "naren-sa33-my-portfolio-reactjs",
+    "public": "build",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**",
+        "destination": "/index.html"
+      }
+    ]
+  }
+}
